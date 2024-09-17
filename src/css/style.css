@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: min(100% - 30px, 1000px);
+  margin-inline: auto;
+  padding: 40px;
+}
+
+html {
+  font-family: "Poppins",  Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+p{
+  font-weight: 400;
+}
+
+.hero-banner {
+  background:  #fff url("../img/board-background.jpg") 
+  center center / cover no-repeat;
+  display: grid;
+  place-items: center;
+  height: 350px;
+}
+
